@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>feilong&#39;blog</title>
+  <icon>https://www.gravatar.com/avatar/20529dfe896a39b37a69b5eddc71734f</icon>
+  <subtitle>feilong</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-12-21T09:42:11.238Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>feilong</name>
+    <email>feilong4659196@163.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在hexo中添加音乐</title>
+    <link href="http://yoursite.com/2018/12/21/%E5%A6%82%E4%BD%95%E5%9C%A8hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/"/>
+    <id>http://yoursite.com/2018/12/21/如何在hexo中添加音乐/</id>
+    <published>2018-12-21T07:06:02.000Z</published>
+    <updated>2018-12-21T09:42:11.238Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><embed src="//music.163.com/style/swf/widget.swf?sid=418603339&type=2&auto=1&width=320&height=66" width="340" height="86" allownetworking="all"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=34167344&auto=1&height=66"></iframe><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=190845&auto=1&height=66"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>本地媒体播放测试</title>
+    <link href="http://yoursite.com/2018/12/19/%E6%9C%AC%E5%9C%B0%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2018/12/19/本地媒体播放测试/</id>
+    <published>2018-12-19T03:03:39.000Z</published>
+    <updated>2018-12-21T15:43:10.316Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code>{% dplayer "url=/video/funny1.mp4"  "pic=" "loop=no" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}</code></pre><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"/video/funny1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>&lt;video src=&quot;/video/Aquaman Trailer 3.mp4&quot; controls=&quot;controls&quot;&gt;Your browser does not support the video tag.&lt;/video&gt;</code></pre>  <video src="/video/Aquaman Trailer 3.mp4" controls="controls"><br>Your browser does not support the video tag.<br></video><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio id=&quot;audio&quot; autoplay=&quot;autoplay&quot;&gt;</span><br><span class="line">    &lt;source src=&quot;http://qzone.haoduoge.com/music1/2015-04-23/1429774382.mp3&quot; type=&quot;audio/mp3&quot;&gt;&lt;/source&gt;</span><br><span class="line">&lt;/audio&gt;</span><br></pre></td></tr></table></figure><p><code>Woolymammoth、Holly - Bruno Mars</code></p><audio id="audio" autoplay="autoplay"><br>    <source src="/audio/Woolymammoth、Holly - Bruno Mars.mp3" type="audio/mp3"><br></audio><p> <code>Cinco/Ofelia K</code></p><audio id="audio" autoplay="autoplay"><br>    <source src="/audioCinco/Ofelia K.mp3" type="audio/mp3"><br></audio><p>![](/image/tumblr_ok8vg9qVXC1vtnct5o1_500.gif</p><p>   <code>![](/image/57cfb7c2df173.jpg)</code></p><p> <img src="/image/57cfb7c2df173.jpg" alt=""></p><audio id="audio" autoplay="autoplay"><br>    <source src="http://qzone.haoduoge.com/music1/2015-04-23/1429774382.mp3" type="audio/mp3"><br></audio>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>远程媒体播放测试</title>
+    <link href="http://yoursite.com/2018/12/16/%E8%BF%9C%E7%A8%8B%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2018/12/16/远程媒体播放测试/</id>
+    <published>2018-12-16T12:05:28.000Z</published>
+    <updated>2018-12-21T06:00:10.153Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=视频地址&quot;  &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>{% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %}</code></pre>        <div id="aplayer-IYPZKDSr" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-IYPZKDSr"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "梨花雨",              author: "云菲菲",              url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360",              pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>github+hexo简明安装教程</title>
+    <link href="http://yoursite.com/2018/12/14/github-hexo%E7%AE%80%E6%98%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/12/14/github-hexo简明安装教程/</id>
+    <published>2018-12-14T15:37:36.000Z</published>
+    <updated>2018-12-18T03:42:35.958Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一、<strong>本地部署</strong><br>git <a href="https://git-scm.com" target="_blank" rel="noopener">https://git-scm.com</a><br>node.js <a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a><br>官方下载并一路默认安装<br>打开CMD命令行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init d:\blog\hexo</span><br><span class="line">d:</span><br><span class="line">cd blog\hexo</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p><strong># 命令详情参考官方文档：</strong><br><a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/commands.html</a></p><p><strong>正常的话，此时已可以通过浏览器访问“localhost:4000”打开本地搭建的网页了<br>（hexo s 这个窗口不能关闭）</strong></p><p>小技巧：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -w</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -s</span><br></pre></td></tr></table></figure><p>同时运行这2条命令，可实现本地网站内容更改后的实时更新。</p><p><strong>二、发布至Github</strong></p><p>1、注册Github</p><p>2、相关配置</p><ul><li>打开CMD命令行：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1 git config --global user.name &quot;Github用户名&quot;</span><br><span class="line">2 git config --global user.email &quot;Github注册邮箱&quot;</span><br><span class="line">3 ssh-keygen -t rsa -C &quot;Github注册邮箱&quot;</span><br></pre></td></tr></table></figure><ul><li><p>**打开”.ssh”目录下的“id_rsa.pub”,全选复制。</p><p>去Github网站添加密钥（粘贴刚才复制的内容）。**</p><p>更改网站配置文件的如下部分：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1 deploy:</span><br><span class="line">2   type: git</span><br><span class="line">3   repo: 仓库地址.git</span><br></pre></td></tr></table></figure></li></ul><p><em>CMD命令行进入本地网站主目录：</em></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>3、<strong>上传网站</strong></p><ul><li>CMD进入本地网站主目录：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1 hexo clean</span><br><span class="line">2 hexo g</span><br><span class="line">3 hexo d</span><br></pre></td></tr></table></figure><p><em>至此一切顺利的话，访问Github域名即可看到生成的网站了。备注：由于我的安装路径有问题，故必须用node   %appdata%\npm\node_modules\hexo-cli\bin\hexo 才能进行博客建立和部署。</em></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/12/13/hello-world/"/>
+    <id>http://yoursite.com/2018/12/13/hello-world/</id>
+    <published>2018-12-13T00:57:01.626Z</published>
+    <updated>2018-12-13T00:57:01.627Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
