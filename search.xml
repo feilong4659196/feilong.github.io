@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[如何在hexo中添加音乐]]></title>
+    <url>%2F2018%2F12%2F21%2F%E5%A6%82%E4%BD%95%E5%9C%A8hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[本地媒体播放测试]]></title>
+    <url>%2F2018%2F12%2F19%2F%E6%9C%AC%E5%9C%B0%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[{% dplayer "url=/video/funny1.mp4" "pic=" "loop=no" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %} (function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"/video/funny1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() &lt;video src=&quot;/video/Aquaman Trailer 3.mp4&quot; controls=&quot;controls&quot;&gt; Your browser does not support the video tag. &lt;/video&gt; Your browser does not support the video tag. 123&lt;audio id=&quot;audio&quot; autoplay=&quot;autoplay&quot;&gt; &lt;source src=&quot;http://qzone.haoduoge.com/music1/2015-04-23/1429774382.mp3&quot; type=&quot;audio/mp3&quot;&gt;&lt;/source&gt;&lt;/audio&gt; Woolymammoth、Holly - Bruno Mars Cinco/Ofelia K ![](/image/tumblr_ok8vg9qVXC1vtnct5o1_500.gif ![](/image/57cfb7c2df173.jpg)]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[远程媒体播放测试]]></title>
+    <url>%2F2018%2F12%2F16%2F%E8%BF%9C%E7%A8%8B%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[1&#123;% dplayer &quot;url=视频地址&quot; &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125; (function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() {% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %} var ap = new APlayer({ element: document.getElementById("aplayer-LkOVUiBQ"), narrow: false, autoplay: true, showlrc: false, music: { title: "梨花雨", author: "云菲菲", url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360", pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[github+hexo简明安装教程]]></title>
+    <url>%2F2018%2F12%2F14%2Fgithub-hexo%E7%AE%80%E6%98%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[一、本地部署git https://git-scm.comnode.js https://nodejs.org/en/官方下载并一路默认安装打开CMD命令行 12345npm install -g hexo-clihexo init d:\blog\hexod:cd blog\hexohexo s # 命令详情参考官方文档：https://hexo.io/zh-cn/docs/commands.html 正常的话，此时已可以通过浏览器访问“localhost:4000”打开本地搭建的网页了（hexo s 这个窗口不能关闭） 小技巧： 1hexo g -w 1hexo s -s 同时运行这2条命令，可实现本地网站内容更改后的实时更新。 二、发布至Github 1、注册Github 2、相关配置 打开CMD命令行： 1231 git config --global user.name &quot;Github用户名&quot;2 git config --global user.email &quot;Github注册邮箱&quot;3 ssh-keygen -t rsa -C &quot;Github注册邮箱&quot; **打开”.ssh”目录下的“id_rsa.pub”,全选复制。 去Github网站添加密钥（粘贴刚才复制的内容）。** 更改网站配置文件的如下部分： 1231 deploy:2 type: git3 repo: 仓库地址.git CMD命令行进入本地网站主目录： 11 npm install hexo-deployer-git --save 3、上传网站 CMD进入本地网站主目录： 1231 hexo clean2 hexo g3 hexo d 至此一切顺利的话，访问Github域名即可看到生成的网站了。备注：由于我的安装路径有问题，故必须用node %appdata%\npm\node_modules\hexo-cli\bin\hexo 才能进行博客建立和部署。]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F12%2F13%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
