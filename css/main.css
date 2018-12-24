@@ -1813,18 +1813,23 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
+/* ͷ��Բ�� */
   border-radius: 80px;
   -webkit-border-radius: 80px;
   -moz-border-radius: 80px;
   box-shadow: inset 0 -1px 0 #333 sf;
+/* ����ѭ������ [animation: (play)�������� (2s)��������ʱ����λ���΢�� (ase-out)�������ŵ��ٶ�����Ϊ�Ե��ٽ��� 
+    (1s)�ȴ�1��Ȼ��ʼ���� (1)�������Ŵ���(infiniteΪѭ������) ]*/
+/* ��꾭��ͷ����ת360�� */
   -webkit-transition: -webkit-transform 1s ease-out;
   -moz-transition: -moz-transform 1s ease-out;
   transition: transform 1s ease-out;
 }
 img:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-*
+/* ��꾭��ֹͣͷ����ת 
+  -webkit-animation-play-state:paused;
+  animation-play-state:paused;*/
+/* ��꾭��ͷ����ת360�� */
   -webkit-transform: rotateZ(360deg);
   -moz-transform: rotateZ(360deg);
   -webkit-transform: rotateZ(360deg);
@@ -1833,7 +1838,6 @@ img:hover {
   -o-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
 }
-*
 @-webkit-keyframes play {
   0% {
     -webkit-transform: rotateZ(0deg);
@@ -1984,7 +1988,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #16abff;
+  background: #c694db;
 }
 .links-of-blogroll {
   font-size: 13px;
