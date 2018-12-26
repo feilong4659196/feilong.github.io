@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://feilong4659196.github.io/"/>
-  <updated>2018-12-21T09:42:11.238Z</updated>
+  <updated>2018-12-26T10:40:53.945Z</updated>
   <id>https://feilong4659196.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HVOB-HVOB 专辑 FLAC 2013</title>
+    <link href="https://feilong4659196.github.io/2018/12/26/HVOB-HVOB-%E4%B8%93%E8%BE%91-FLAC-2013/"/>
+    <id>https://feilong4659196.github.io/2018/12/26/HVOB-HVOB-专辑-FLAC-2013/</id>
+    <published>2018-12-26T07:50:47.000Z</published>
+    <updated>2018-12-26T10:40:53.945Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##<strong>简介</strong>：</p><p>专辑：HVOB</p><p>歌手：HVOB</p><p>发行时间：2013-03-19</p><p>发行公司：Stil Vor Talent</p><h2 id="在线欣赏-："><a href="#在线欣赏-：" class="headerlink" title="在线欣赏 ："></a><strong>在线欣赏</strong> ：</h2><p><a href="https://music.163.com/#/album?id=2504849" target="_blank" rel="noopener">(如无法试听请点击进入网易云音乐试听)</a></p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="//music.163.com/outchain/player?type=1&id=2504849&auto=1&height=430"></iframe><h2 id="无损下载（FLAC）："><a href="#无损下载（FLAC）：" class="headerlink" title="无损下载（FLAC）："></a><strong>无损下载</strong>（FLAC）：</h2><p><a href="https://home.ctfile.com/#item-pfiles/action-index/folder_id-4753799" target="_blank" rel="noopener"><strong>HVOB - HVOB [SVT098] FLAC-2013.zip</strong></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="无损音乐" scheme="https://feilong4659196.github.io/categories/%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>如何在hexo中添加音乐</title>
@@ -69,7 +92,7 @@
     <published>2018-12-16T12:05:28.000Z</published>
     <updated>2018-12-21T06:00:10.153Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=视频地址&quot;  &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>{% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %}</code></pre>        <div id="aplayer-FcWtYawl" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-FcWtYawl"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "梨花雨",              author: "云菲菲",              url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360",              pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=视频地址&quot;  &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>{% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %}</code></pre>        <div id="aplayer-sxcxzDAb" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-sxcxzDAb"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "梨花雨",              author: "云菲菲",              url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360",              pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
     
     <summary type="html">
     
