@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo安装Next 6.6 主题]]></title>
+    <url>%2F2018%2F12%2F26%2FHexo%E5%AE%89%E8%A3%85Next-6-6-%E4%B8%BB%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[安装并应用Next主题blog目录下运行：git clone https://github.com/theme-next/hexo-theme-next themes/next 更改网站配置文件：个性化主题更改主题样式(主题配置文件)scheme: Pisces 更改头像(主题配置文件)Sidebar Avatar avatar: url: /gif/avatar1.gif 增加搜索功能命令行运行：npm install hexo-generator-searchdb --save 网站配置文件添加：search: path: search.xml field: post format: html limit: 10000 主题配置文件修改：local_search: enable: true 开启动态背景(主题配置文件内置了几种特效，需要开启的特性改为 true)# Canvas-nest # Dependencies: https://github.com/theme-next/theme-next-canvas-nest canvas_nest: enable: true 同时需要安装相应的特效代码(查看官方网站的readme文档)博客目录下运行：git clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nest 其它特效开启方式也是如此。]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[HVOB-HVOB 专辑 FLAC 2013]]></title>
     <url>%2F2018%2F12%2F26%2FHVOB-HVOB-%E4%B8%93%E8%BE%91-FLAC-2013%2F</url>
     <content type="text"><![CDATA[简介：专辑：HVOB 歌手：HVOB 发行时间：2013-03-19 发行公司：Stil Vor Talent 在线欣赏 ：(如无法试听请点击进入网易云音乐试听) 无损下载（FLAC）：HVOB - HVOB [SVT098] FLAC-2013.zip]]></content>
@@ -19,7 +27,7 @@
   <entry>
     <title><![CDATA[本地媒体播放测试]]></title>
     <url>%2F2018%2F12%2F19%2F%E6%9C%AC%E5%9C%B0%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[{% dplayer "url=/video/funny1.mp4" "pic=" "loop=no" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %} (function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","video":{"url":"/video/funny1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() &lt;video src=&quot;/video/Aquaman Trailer 3.mp4&quot; controls=&quot;controls&quot;&gt; Your browser does not support the video tag. &lt;/video&gt; Your browser does not support the video tag. 123 &lt;audio controls height=&quot;100&quot; width=&quot;100&quot;&gt; &lt;source src=&quot;/audio/holly.mp3&quot;&lt;/audio&gt; Seven Nation Army/Holly Henry &lt;source src=”/audio/holly.mp3” Cinco/Ofelia K &lt;source src=”/audio/cinco.mp3” ![](/image/57cfb7c2df173.jpg)]]></content>
+    <content type="text"><![CDATA[{% dplayer "url=/video/funny1.mp4" "pic=" "loop=no" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %} (function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"/video/funny1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() &lt;video src=&quot;/video/Aquaman Trailer 3.mp4&quot; controls=&quot;controls&quot;&gt; Your browser does not support the video tag. &lt;/video&gt; Your browser does not support the video tag. 123 &lt;audio controls height=&quot;100&quot; width=&quot;100&quot;&gt; &lt;source src=&quot;/audio/holly.mp3&quot;&lt;/audio&gt; Seven Nation Army/Holly Henry &lt;source src=”/audio/holly.mp3” Cinco/Ofelia K &lt;source src=”/audio/cinco.mp3” ![](/image/57cfb7c2df173.jpg)]]></content>
       <categories>
         <category>笔记</category>
       </categories>
@@ -27,7 +35,7 @@
   <entry>
     <title><![CDATA[远程媒体播放测试]]></title>
     <url>%2F2018%2F12%2F16%2F%E8%BF%9C%E7%A8%8B%E5%AA%92%E4%BD%93%E6%92%AD%E6%94%BE%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[1&#123;% dplayer &quot;url=视频地址&quot; &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125; (function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() {% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %} var ap = new APlayer({ element: document.getElementById("aplayer-USaYnxJH"), narrow: false, autoplay: true, showlrc: false, music: { title: "梨花雨", author: "云菲菲", url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360", pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+    <content type="text"><![CDATA[1&#123;% dplayer &quot;url=视频地址&quot; &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125; (function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() {% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %} var ap = new APlayer({ element: document.getElementById("aplayer-CVCcHkmy"), narrow: false, autoplay: true, showlrc: false, music: { title: "梨花雨", author: "云菲菲", url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360", pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
       <categories>
         <category>笔记</category>
       </categories>

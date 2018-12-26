@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://feilong4659196.github.io/"/>
-  <updated>2018-12-26T10:55:37.756Z</updated>
+  <updated>2018-12-26T14:20:32.921Z</updated>
   <id>https://feilong4659196.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo安装Next 6.6 主题</title>
+    <link href="https://feilong4659196.github.io/2018/12/26/Hexo%E5%AE%89%E8%A3%85Next-6-6-%E4%B8%BB%E9%A2%98/"/>
+    <id>https://feilong4659196.github.io/2018/12/26/Hexo安装Next-6-6-主题/</id>
+    <published>2018-12-26T11:22:09.000Z</published>
+    <updated>2018-12-26T14:20:32.921Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="安装并应用Next主题"><a href="#安装并应用Next主题" class="headerlink" title="安装并应用Next主题"></a>安装并应用Next主题</h2><h3 id="blog目录下运行："><a href="#blog目录下运行：" class="headerlink" title="blog目录下运行："></a>blog目录下运行：</h3><pre><code>git clone https://github.com/theme-next/hexo-theme-next themes/next</code></pre><h3 id="更改网站配置文件："><a href="#更改网站配置文件：" class="headerlink" title="更改网站配置文件："></a>更改网站配置文件：</h3><h2 id="个性化主题"><a href="#个性化主题" class="headerlink" title="个性化主题"></a>个性化主题</h2><h3 id="更改主题样式-主题配置文件"><a href="#更改主题样式-主题配置文件" class="headerlink" title="更改主题样式(主题配置文件)"></a>更改主题样式(主题配置文件)</h3><pre><code>scheme: Pisces</code></pre><h3 id="更改头像-主题配置文件"><a href="#更改头像-主题配置文件" class="headerlink" title="更改头像(主题配置文件)"></a>更改头像(主题配置文件)</h3><pre><code>Sidebar Avataravatar: url: /gif/avatar1.gif</code></pre><h2 id="增加搜索功能"><a href="#增加搜索功能" class="headerlink" title="增加搜索功能"></a>增加搜索功能</h2><h3 id="命令行运行："><a href="#命令行运行：" class="headerlink" title="命令行运行："></a>命令行运行：</h3><pre><code>npm install hexo-generator-searchdb --save</code></pre><h3 id="网站配置文件添加："><a href="#网站配置文件添加：" class="headerlink" title="网站配置文件添加："></a>网站配置文件添加：</h3><pre><code>search:path: search.xmlfield: postformat: htmllimit: 10000</code></pre><h3 id="主题配置文件修改："><a href="#主题配置文件修改：" class="headerlink" title="主题配置文件修改："></a>主题配置文件修改：</h3><pre><code>local_search:  enable: true</code></pre><h3 id="开启动态背景-主题配置文件内置了几种特效，需要开启的特性改为-true"><a href="#开启动态背景-主题配置文件内置了几种特效，需要开启的特性改为-true" class="headerlink" title="开启动态背景(主题配置文件内置了几种特效，需要开启的特性改为   true)"></a>开启动态背景(主题配置文件内置了几种特效，需要开启的特性改为   true)</h3><pre><code># Canvas-nest# Dependencies: https://github.com/theme-next/theme-next-canvas-nestcanvas_nest:  enable: true</code></pre><h3 id="同时需要安装相应的特效代码-查看官方网站的readme文档"><a href="#同时需要安装相应的特效代码-查看官方网站的readme文档" class="headerlink" title="同时需要安装相应的特效代码(查看官方网站的readme文档)"></a>同时需要安装相应的特效代码(查看官方网站的readme文档)</h3><h3 id="博客目录下运行："><a href="#博客目录下运行：" class="headerlink" title="博客目录下运行："></a>博客目录下运行：</h3><pre><code>git clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nest</code></pre><h3 id="其它特效开启方式也是如此。"><a href="#其它特效开启方式也是如此。" class="headerlink" title="其它特效开启方式也是如此。"></a>其它特效开启方式也是如此。</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="https://feilong4659196.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>HVOB-HVOB 专辑 FLAC 2013</title>
@@ -69,7 +92,7 @@
     <published>2018-12-19T03:03:39.000Z</published>
     <updated>2018-12-25T15:57:58.754Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code>{% dplayer "url=/video/funny1.mp4"  "pic=" "loop=no" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}</code></pre><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","video":{"url":"/video/funny1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>&lt;video src=&quot;/video/Aquaman Trailer 3.mp4&quot; controls=&quot;controls&quot;&gt;Your browser does not support the video tag.&lt;/video&gt;</code></pre>  <video src="/video/Aquaman Trailer 3.mp4" controls="controls"><br>Your browser does not support the video tag.<br></video><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"> &lt;audio controls height=&quot;100&quot; width=&quot;100&quot;&gt;</span><br><span class="line">  &lt;source src=&quot;/audio/holly.mp3&quot;</span><br><span class="line">&lt;/audio&gt;</span><br></pre></td></tr></table></figure><p><code>Seven Nation Army/Holly Henry</code></p> <audio controls height="100" width="100"><br>  &lt;source src=”/audio/holly.mp3”<br></audio><p><code>Cinco/Ofelia K</code></p><audio controls height="100" width="100"><br>  &lt;source src=”/audio/cinco.mp3”<br></audio><p><img src="/image/tumblr_ok8vg9qVXC1vtnct5o1_500.gif" alt=""></p><p>  <code>![](/image/57cfb7c2df173.jpg)</code></p><p> <img src="/image/57cfb7c2df173.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code>{% dplayer "url=/video/funny1.mp4"  "pic=" "loop=no" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}</code></pre><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"/video/funny1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>&lt;video src=&quot;/video/Aquaman Trailer 3.mp4&quot; controls=&quot;controls&quot;&gt;Your browser does not support the video tag.&lt;/video&gt;</code></pre>  <video src="/video/Aquaman Trailer 3.mp4" controls="controls"><br>Your browser does not support the video tag.<br></video><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"> &lt;audio controls height=&quot;100&quot; width=&quot;100&quot;&gt;</span><br><span class="line">  &lt;source src=&quot;/audio/holly.mp3&quot;</span><br><span class="line">&lt;/audio&gt;</span><br></pre></td></tr></table></figure><p><code>Seven Nation Army/Holly Henry</code></p> <audio controls height="100" width="100"><br>  &lt;source src=”/audio/holly.mp3”<br></audio><p><code>Cinco/Ofelia K</code></p><audio controls height="100" width="100"><br>  &lt;source src=”/audio/cinco.mp3”<br></audio><p><img src="/image/tumblr_ok8vg9qVXC1vtnct5o1_500.gif" alt=""></p><p>  <code>![](/image/57cfb7c2df173.jpg)</code></p><p> <img src="/image/57cfb7c2df173.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
@@ -92,7 +115,7 @@
     <published>2018-12-16T12:05:28.000Z</published>
     <updated>2018-12-21T06:00:10.153Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=视频地址&quot;  &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>{% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %}</code></pre>        <div id="aplayer-USaYnxJH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-USaYnxJH"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "梨花雨",              author: "云菲菲",              url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360",              pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url=视频地址&quot;  &quot;pic=&quot; &quot;loop=no&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</span><br></pre></td></tr></table></figure><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","video":{"url":"http://17431793.d.yyupload.com/down/17431793/MV/Kygo - This Town ft. Sasha Sloan - Music Video - Lyrics.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><pre><code>{% aplayer "歌曲名称" "作者" "音乐_url" "封面图片_url" "autoplay" %}</code></pre>        <div id="aplayer-CVCcHkmy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-CVCcHkmy"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "梨花雨",              author: "云菲菲",              url: "http://bd.kuwo.cn/yinyue/35826500?from=dq360",              pic: "http://star.kuwo.cn/star/starheads/180/79/97/2636884822.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
     
     <summary type="html">
     
