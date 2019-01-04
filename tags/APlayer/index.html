@@ -106,7 +106,7 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="feilong&#39;blog">
-<meta property="og:url" content="https://feilong4659196.github.io/tags/Aplayer/index.html">
+<meta property="og:url" content="https://feilong4659196.github.io/tags/APlayer/index.html">
 <meta property="og:site_name" content="feilong&#39;blog">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
@@ -119,7 +119,7 @@
 
 
 
-  <link rel="canonical" href="https://feilong4659196.github.io/tags/Aplayer/">
+  <link rel="canonical" href="https://feilong4659196.github.io/tags/APlayer/">
 
 
 
@@ -129,7 +129,7 @@
   };
 </script>
 
-  <title>标签: Aplayer | feilong'blog</title>
+  <title>标签: APlayer | feilong'blog</title>
   
 
 
@@ -431,7 +431,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>Aplayer<small>标签</small>
+        <h1>APlayer<small>标签</small>
         </h1>
       </div>
 
@@ -443,17 +443,17 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/01/03/HVOB-Lion-FLAC无损-2013/" itemprop="url">
+            <a class="post-title-link" href="/2019/01/01/Hexo-添加APlayer音乐播放器二/" itemprop="url">
               
-                <span itemprop="name">HVOB-Lion FLAC无损 2013</span>
+                <span itemprop="name">Hexo 添加APlayer音乐播放器二</span>
               
             </a>
         
       </h2>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-01-03T21:50:26+08:00" content="2019-01-03">
-          01-03
+        <time class="post-time" itemprop="dateCreated" datetime="2019-01-01T09:40:06+08:00" content="2019-01-01">
+          01-01
         </time>
       </div>
 
@@ -469,69 +469,17 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/01/03/HVOB-HVOB-专辑-FLAC-2013-二/" itemprop="url">
+            <a class="post-title-link" href="/2018/12/29/Hexo-添加APlayer音乐播放器/" itemprop="url">
               
-                <span itemprop="name">HVOB-HVOB 专辑 FLAC 2013<二></二></span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-01-03T15:44:10+08:00" content="2019-01-03">
-          01-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2019/01/02/Marian-Hill-Sway（EP）FLAC无损-2015/" itemprop="url">
-              
-                <span itemprop="name">Marian Hill-Sway（EP）FLAC无损-2015</span>
+                <span itemprop="name">Hexo 添加APlayer音乐播放器</span>
               
             </a>
         
       </h2>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-01-02T22:55:19+08:00" content="2019-01-02">
-          01-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/12/26/HVOB-HVOB-专辑-FLAC-2013/" itemprop="url">
-              
-                <span itemprop="name">HVOB-HVOB 专辑 FLAC 2013</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-12-26T15:50:47+08:00" content="2018-12-26">
-          12-26
+        <time class="post-time" itemprop="dateCreated" datetime="2018-12-29T23:02:05+08:00" content="2018-12-29">
+          12-29
         </time>
       </div>
 
@@ -1132,6 +1080,84 @@
             input.addEventListener('keypress', function (event) {
               if (event.keyCode === 13) {
                 inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+<script type="text/javascript" color="0,0,255" opacity="0.7" zindex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+
+  <link rel="stylesheet" href="/dist/APlayer.min.css">
+  <div id="aplayer"></div>
+  <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+  <script type="text/javascript" src="/dist/music.js"></script>
+
+</body>
+</html>
+     inputEventFunction();
               }
             });
           }
